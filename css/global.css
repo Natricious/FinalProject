@@ -245,7 +245,12 @@ header .container .header-block3 .burger i {
   display: flex;
 }
 header .container .header-block3 .burger .burger-block nav a {
-  display: block;
+  display: none;
+}
+@media (max-width: 375px) {
+  header .container .header-block3 .burger .burger-block nav a {
+    display: block;
+  }
 }
 header .container .header-block3 .burger .burger-block nav a i {
   margin-left: -15px;
